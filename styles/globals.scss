@@ -306,6 +306,8 @@ body {
 }
 
 .anim {
+  object-fit: cover;
+  border-radius: 20px;
   animation: bottom 0.8s var(--delay) both;
 }
 
@@ -578,7 +580,7 @@ video {
 }
 
 .stream-area {
-  display: none;
+  display: flex;
   @media screen and (max-width: 940px) {
     flex-direction: column;
     .video-stream {
